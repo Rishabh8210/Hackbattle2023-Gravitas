@@ -1,0 +1,14 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "Just using SASS",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass SASS/main.scss CSS/style.css -w"
+  },
+  "author": "Lost Hope",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
